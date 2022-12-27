@@ -17,7 +17,7 @@ const ProductOffers = () => {
   Ponude
   </Typography> */}
   <Box sx={{background:white, py:10}}>
-  <Container sx={{display:'flex', justifyContent:'center', alignItems:'center', 
+  <Container id='Offers' sx={{display:'flex', justifyContent:'center', alignItems:'center', 
   [theme.breakpoints.down('md')]: {
     flexDirection:'column'
   },

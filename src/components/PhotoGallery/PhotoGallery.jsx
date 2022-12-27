@@ -41,7 +41,7 @@ const slides = photos.map(({ src, key, width, height, images }) => ({
 
   return (
     <Box sx={{py:10}}>
-  <Container >
+  <Container id='ImageGallery' >
      <PhotoAlbum
         layout="rows"
         photos={photos}

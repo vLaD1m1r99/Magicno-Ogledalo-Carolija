@@ -69,7 +69,7 @@ const Navbar = (props) => {
             {navItems.map((item) => (
               <Link style={{marginRight:'1rem', cursor:'pointer', '&:hover': {
               backgroundColor: 'white'
-             },}} key={item.title} to={item.link} spy={true}smooth={true}  offset={-75} duration={500}>
+             },}} key={item.title} to={item.link} spy={true}smooth={true}  offset={-150} duration={500}>
                 {item.title}
               </Link>
             ))}

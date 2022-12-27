@@ -21,7 +21,7 @@ export const navItems = [
   { title: 'O Nama', link: 'AboutUs' },
   { title: 'Ponude', link: 'Offers' },
   { title: 'Kontakt', link: 'Contact' },
-  { title: 'Galerija', link: 'ImageGalery' },
+  { title: 'Galerija', link: 'ImageGallery' },
 ];
 export const productFeatures = [
   {
